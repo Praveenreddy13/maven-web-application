@@ -38,6 +38,19 @@
 		</dependency>
 
 		<dependency>
+	
+     <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Releasegit</name>
+	      <url>http://13.127.50.189:8081/repository/Releasegit/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Snapshotgit</name>
+	      <url>http://13.127.50.189:8081/repository/Snapshotgit/</url>
+	    </snapshotRepository>
+	</distributionManagement>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
 			<version>3.2.3.RELEASE</version>
